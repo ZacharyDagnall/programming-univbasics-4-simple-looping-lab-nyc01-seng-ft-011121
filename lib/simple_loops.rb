@@ -22,8 +22,10 @@ end
 def return_string_array(arr)
   count=0 
   while arr[count] do
-     arr[count] = arr[count].to_s 
-     count++
+    arr[count] = arr[count].to_s 
+    count+=1 
   end
   arr
 end
+
+
